@@ -5,4 +5,4 @@ module.exports = (robot) ->
 
   robot.respond /hello (.*)/i, (res) ->
     target = res.match[1]
-    res.reply "Hi #{target}"
+    res.reply "Hi #{target}."
